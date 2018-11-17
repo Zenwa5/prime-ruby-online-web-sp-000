@@ -1,4 +1,4 @@
-def prime(number)
+def prime?(number)
  number.each do |n|
    if n.even?
      true
