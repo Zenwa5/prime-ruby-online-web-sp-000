@@ -1,10 +1,5 @@
 number = [1..100]
 def prime?(number)
- number.each do |n|
-   if n / n = 1
-     true
-   else
-     false
-   end
- end
+  return false if int <= 1
+  (2..Math.sqrt(int)).none? { |i| (int % i).zero? }
 end
