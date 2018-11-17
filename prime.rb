@@ -1,5 +1,5 @@
 def prime?(number)
- number.each do |n|
+ number.detect do |n|
    if n.even?
      true
    else
