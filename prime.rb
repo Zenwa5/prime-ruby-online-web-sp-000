@@ -1,7 +1,6 @@
+number = [1..100]
 def prime?(number)
-  for d in 2..(n - 1)
-    if (n % d) == 0
-     return false
-    end
+ number.each do |n|
+   if n
  end
 end
