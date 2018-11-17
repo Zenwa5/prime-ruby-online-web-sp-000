@@ -1,5 +1,7 @@
 def prime?(number)
- number.detect do |n|
-   
+  or d in 2..(n - 1)
+    if (n % d) == 0
+     return false
+    end
  end
 end
